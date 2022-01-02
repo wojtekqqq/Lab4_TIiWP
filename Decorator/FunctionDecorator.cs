@@ -16,9 +16,9 @@ namespace Lab4.Decorator
             _funkcja = function;
         }
 
-        public override List<Point> GetY(List<Point> points)
+        public override List<Point> GetY()
         {
-            throw new NotImplementedException();
+            return _funkcja.GetY();
         }
 
         public override void PrintChar()

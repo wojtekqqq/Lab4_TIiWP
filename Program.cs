@@ -26,8 +26,9 @@ namespace Lab4
                         *//*            chr.GenerateChart("T", "X", "Y", new List<Point> { new Point(1, 2), new Point(5, 6) }, "aaa.jpg");*//*
                         chr.GenerateChart("T", "X", "Y", points, "aaa.jpg");*/
 
-            SquareFunction sq = new SquareFunction();
-            WriteFunction wf = new WriteFunction(function: Function);
+            Function sq = new SquareFunction();
+            sq = new WriteFunction(sq);
+            sq.PrintChar();
         }
 
     }
