@@ -11,25 +11,9 @@ namespace Lab4
     {
         static void Main(string[] args)
         {
-            /*            List<Point> points = new List<Point>();
-                        double x = 0, y = 0;
-
-                        for (int i = 0; i < 30; i++)
-                        {
-                            x = i;
-                            y = i * i;
-                            points.Add(new Point(x, y));
-
-                        }
-
-                        Charts chr = new Charts();
-                        *//*            chr.GenerateChart("T", "X", "Y", new List<Point> { new Point(1, 2), new Point(5, 6) }, "aaa.jpg");*//*
-                        chr.GenerateChart("T", "X", "Y", points, "aaa.jpg");*/
-
             Function sq = new SquareFunction();
             sq = new WriteFunction(sq);
             sq.PrintChar();
         }
-
     }
 }

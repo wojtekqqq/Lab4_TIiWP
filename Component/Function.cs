@@ -10,11 +10,7 @@ namespace Lab4.Component
         int Id { get; }
         string Name { get; }
         public abstract List<Point> GetY();
-        public abstract void PrintChar();
-       
-
-
-
+        public abstract void PrintChar();    
 
     }
 }

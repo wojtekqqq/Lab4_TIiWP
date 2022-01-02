@@ -15,17 +15,13 @@ namespace Lab4.Decorator
         {
             _funkcja = function;
         }
-
         public override List<Point> GetY()
         {
             return _funkcja.GetY();
         }
-
         public override void PrintChar()
         {
             _funkcja.PrintChar();
         }
-
-
     }
 }
